@@ -1,22 +1,49 @@
 body {
-  background-color: #339933;
-  color: white;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: lighter;
 }
 
-h1.header {
-  font-size: 100px;
-  line-height: 100px;
-  text-align: center;
+div#contact {
+  background-color: #339933;
+  color: white;
+}
+
+h1 {
   font-weight: lighter;
+  text-align: center;
 }
 
 p.lead {
-  font-size: 35px;
-  font-weight: lighter;
   text-align: center;
 }
 
-div#advert {
-  margin-top: 350px;
+h2 {
+  font-weight: lighter;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+p, li {
+  font-size: 19px;
+  line-height: 29px;
+}
+
+a {
+  color: #339933;
+}
+
+a:hover {
+  color: #117711;
+}
+
+ul, ol {
+  margin: 0 0 10px 0;
+}
+
+blockquote p {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 34px;
 }
