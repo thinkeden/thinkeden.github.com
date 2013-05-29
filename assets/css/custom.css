@@ -28,5 +28,14 @@ div#advert {
   margin-top: 50px;
 }
 
-span.eden {
+div#mc_embed_signup {
+  background-color: rgba(70, 170, 70, 0.75);
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+div#mc_embed_signup .button {
+  width: 218px;
 }
