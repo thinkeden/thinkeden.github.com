@@ -23,19 +23,40 @@ p.lead {
 
 div#advert {
   background-color: rgba(70, 170, 70, 0.75);
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+  border: 1px white solid;
   margin-top: 50px;
 }
 
 div#mc_embed_signup {
   background-color: rgba(70, 170, 70, 0.75);
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+  border: 1px white solid;
   margin-top: 15px;
   text-align: center;
 }
 
+div#mc_embed_signup form {
+  padding: 0 65px;
+}
+
+div#mc_embed_signup input {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+}
+
+div#mc_embed_signup .sell {
+  font-size: 1.2em;
+}
+
 div#mc_embed_signup .button {
+  background-color: rgba(243, 162, 39, 0.85);
+  border: 1px white solid;
+  color: white;
+  font-size: 1.4em;
+  height: 40px;
   width: 218px;
+}
+
+div#mc_embed_signup .no-spam {
+  font-style: italic;
 }
